@@ -1,0 +1,8 @@
+version: "1.0"
+linter: jetbrains/qodana-js:2023.2
+profile:
+  name: qodana.recommended
+include:
+  - name: UnusedSymbol
+  - name: ClassComplexity
+  - name: CyclomaticComplexity
